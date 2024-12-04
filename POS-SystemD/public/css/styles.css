@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@100;300;400;500;600&display==swap');
+:root{
+  --orange: #ff7800;
+  --black: #130f40;
+  --light-color:var: #666;
+  --border: .2rem solid rgba(0,0,0,.1);
+  --outline: .1rem solid rgba(0,0,0,.1);
+  --outline: .1 solid var(--black);
+}
+
+.E-Commerce Application{
+  text-align: left;
+  font-size: 1.5rem;
+  margin: 10px;
+  color: black;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 10px;
+  padding: 10px;
+}
+
+.container {
+  width: auto;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 5px 15px 10px rgba(0, 0, 0, 0.1);
+}
+
+form {  
+  margin-bottom: 20px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+#product-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 250px;
+  height: auto;
+  text-align: left;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+  color: orange;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+h3 {
+  text-align: right;
+  margin-right: 10px;
+}
+h2 {
+  text-align: center;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+
+}
+header{
+  position: fixed;
+  top: 0.5em; left: 0.8em;; right: 0.8em;;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 4%;
+  background: #4CAF50;
+  border-radius: 8px;
+  width: auto;
+  height: 20px;
+  font-size: 1.5rem;
+  color: black;
+  box-shadow: 5px 15px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  top: 0.5em; left: 0em;; right: 0.8em;;
+  box-shadow: 5px 15px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+header h1, footer p {
+  margin: auto;
+}
+
+.header .Logo{
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: var(--black);
+}
+
+.header .logo i{
+  color: var(--orange);
+}
+
+.header .navbar a{
+  font-size: 1.4rem;
+  margin: 0 1rem;
+  color: var(--black);
+}
+.header .navbar a:hover{
+  color: var(--orange);
+}
+
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  padding: 10px;
+  border-radius: .5rem;
+  box-shadow: 5px 15px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-links{
+  display: flex;
+  column-gap: 20px;
+}
+
+.navbar-links a{
+  text-decoration: underline;
+  color: #1d232c;
+}
+
+.navbar-links a.hover{
+  text-decoration: none;
+  color: #1d232c;
+}
+
+
+.navbar-menu-toggle{
+  display: none;
+}
+
+
+@media screen and (max-width:00px){
+  .navbar-menu-toggle{
+    display: block;
+  }
+  .navbar-links{
+    display: none;
+  }
+}
+
+.product-section{
+  padding: 20px;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  flex-basis: 20%;
+  display: flexbox;
+}
+
+.products-box{
+  text-align: center;
+  flex-basis: 20%;
+}
+.products-box img{
+  border-radius: 10%;
+}
+
+a {
+  position: relative;
+  z-index: 1;
+}
